@@ -3,13 +3,33 @@ import ameer from './ameer.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFile } from '@fortawesome/free-solid-svg-icons'
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
+import Typewriter from 'typewriter-effect'
 
 function About() {
   return (
     <div className="about">
         <div className="aboutLeft">
             <h1>Hi, my name is Ameer! 👋</h1>
-            <h2>I am a Software Engineer</h2>
+            <h2>I am a&nbsp;
+            <Typewriter 
+                onInit={(typewriter) => {
+                    typewriter
+                        .typeString("Software Engineer.")
+                        .pauseFor(1000)
+                        .deleteAll()
+                        .typeString("Designer.")
+                        .pauseFor(1000)
+                        .deleteAll()
+                        .typeString("problem solver.")
+                        .pauseFor(1000)
+                        .deleteAll()
+                        .typeString("life long learner.")
+                        .pauseFor(1000)
+                        .deleteAll()
+                        .typeString("Software Engineer.")
+                        .start()
+                }}
+            /> </h2>
             <ul className="aboutSocials">
                 <li><a href="https://github.com/ameer-ahmad" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faGithub} /></a></li>
                 <li><a href="https://www.linkedin.com/in/ameerahmad/" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faLinkedin} /></a></li>
