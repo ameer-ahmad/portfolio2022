@@ -13,3 +13,56 @@ body {
   color: #FFFFFF;
   font-family: 'Courier Prime', monospace;
 }
+
+.about {
+  max-width: 1280px;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto 0 auto;
+}
+
+.aboutImg {
+  height: 250px;
+  width: 250px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 50px;
+}
+
+.aboutLeft {
+  width: 45%;
+  line-height: 65px;
+}
+
+.aboutRight {
+  width:45%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-size: 18px;
+  line-height: 26px;
+}
+
+.aboutLeft h1 {
+  font-size: 36px;
+}
+
+.aboutLeft h2 {
+  font-size: 28px;
+}
+
+.aboutSocials {
+  list-style: none;
+  display: flex;
+  font-size: 42px;
+  width: 40%;
+  margin-top: 25px;
+  justify-content: space-between;
+}
+
+.aboutSocials a {
+  color: white;
+}
