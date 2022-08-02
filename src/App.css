@@ -21,6 +21,7 @@ body {
   align-items: center;
   justify-content: space-evenly;
   margin: 0 auto 0 auto;
+  position: relative;
 }
 
 .aboutImg {
@@ -73,6 +74,9 @@ body {
 .seeProjects {
   position: absolute;
   bottom: 25px;
+}
+
+.seeProjectsLink {
   display: flex;
   flex-direction: column;
   cursor: pointer;
@@ -80,7 +84,7 @@ body {
 
 .bounce {
   animation: bounce 2s infinite;
-  margin-top: 30px;
+  margin-top: 25px;
 }
 
 @keyframes bounce {
@@ -88,9 +92,13 @@ body {
     transform: translateY(0);
   }
   40% {
-    transform: translateY(-30px);
+    transform: translateY(-20px);
   }
   60% {
     transform: translateY(-15px);
   }
+}
+
+.projects {
+  min-height: 100vh;
 }

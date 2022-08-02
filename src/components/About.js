@@ -5,6 +5,7 @@ import { faFile, faAngleDoubleDown } from '@fortawesome/free-solid-svg-icons'
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import Typewriter from 'typewriter-effect'
 import resume from './AmeerAhmadSoftwareEngineerResume.pdf'
+import { Link } from 'react-scroll'
 
 function About() {
   return (
@@ -43,8 +44,10 @@ function About() {
             my personal projects. Currently, I'm looking for Fall 2022 internships. Feel free to contact me on LinkedIn or through email.</p>
         </div>
         <div className="seeProjects">
-            <p>View Projects</p>
-            <FontAwesomeIcon icon={faAngleDoubleDown} className="bounce" />
+            <Link className="seeProjectsLink" to="projects" smooth={true} duration={500}>
+                <p>View Projects</p>
+                <FontAwesomeIcon icon={faAngleDoubleDown} className="bounce" />
+            </Link>
         </div>
         
     </div>
