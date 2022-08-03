@@ -1,13 +1,25 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCode } from '@fortawesome/free-solid-svg-icons'
 import { Link } from 'react-scroll'
 
 function Header() {
-    
+
+    const [isHeaderVisible, setIsHeaderVisible] = useState(false)
+
+    const handleHeader = () => {
+        const aboutBottom = document.getElementById('about').getBoundingClientRect().bottom
+        if (aboutBottom <= 0) {
+            setIsHeaderVisible(true)
+        } else {
+            setIsHeaderVisible(false)
+        }
+    }
+
+    window.addEventListener('scroll', handleHeader)
 
   return (
-    <div className="header">
+    <div className={isHeaderVisible ? "header show" : "header"}>
         <Link to="about" smooth={true} duration={500}>
             <FontAwesomeIcon className="logo" icon={faCode}/>
         </Link>

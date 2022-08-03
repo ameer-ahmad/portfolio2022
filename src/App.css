@@ -114,10 +114,12 @@ body {
   padding: 0 100px 0 100px;
   z-index: 100;
   top: -100px;
+  transition: all 1s ease-in-out;
 }
 
-.header .show {
+.show {
   top: 0px;
+  transition: all 0.2s ease-in-out;
 }
 
 .header ul {
