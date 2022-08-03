@@ -1,5 +1,5 @@
 import React from 'react'
-import ameer from './ameer.png'
+import ameer from '../images/ameer.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFile, faAngleDoubleDown } from '@fortawesome/free-solid-svg-icons'
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'

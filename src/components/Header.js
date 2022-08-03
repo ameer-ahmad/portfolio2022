@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCode } from '@fortawesome/free-solid-svg-icons'
 import { Link } from 'react-scroll'
+import resume from './AmeerAhmadSoftwareEngineerResume.pdf'
 
 function Header() {
 
@@ -9,7 +10,7 @@ function Header() {
 
     const handleHeader = () => {
         const aboutBottom = document.getElementById('about').getBoundingClientRect().bottom
-        if (aboutBottom <= 0) {
+        if (aboutBottom <= 100) {
             setIsHeaderVisible(true)
         } else {
             setIsHeaderVisible(false)
@@ -27,8 +28,8 @@ function Header() {
             <ul>
                 <li><Link to="about" smooth={true} duration={500}>About</Link></li>
                 <li><Link to="projects" smooth={true} duration={500}>Projects</Link></li>
-                <li>Experience</li>
-                <li>Resume</li>
+                <li><Link to="experience" smooth={true} duration={500}>Experience</Link></li>
+                <li><a href={resume} target="_blank" rel="noreferrer">Resume</a></li>
             </ul>
         </nav>
     </div>

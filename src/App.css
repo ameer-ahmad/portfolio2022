@@ -12,6 +12,7 @@ body {
 
   color: #FFFFFF;
   font-family: 'Courier Prime', monospace;
+  overflow-x: hidden;
 }
 
 .about {
@@ -105,7 +106,7 @@ body {
 
 .header {
   position: fixed;
-  background-color: black;
+  background-color: #16222A;
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -119,7 +120,7 @@ body {
 
 .show {
   top: 0px;
-  transition: all 0.2s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 .header ul {
@@ -138,6 +139,79 @@ body {
   cursor: pointer;
 }
 
-.header li {
+.header li, .header li a {
   cursor: pointer;
+  color: rgb(170, 170, 170);
+  text-decoration: none;
 }
+
+.header li:hover, .header li a:hover {
+  color: white;
+}
+
+.experience {
+  min-height: 100vh;
+}
+
+.projects h2 {
+  width: 75%;
+  margin: 0 auto 0 auto;
+  padding-top: 150px;
+  font-size: 36px;
+}
+
+.projectImg {
+  width: 100%;
+  display: block;
+}
+
+.projectsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  width: 75%;
+  margin: 50px auto 0 auto;
+  justify-content: space-between;
+}
+
+.project h3 {
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+
+.project {
+  margin-bottom: 50px;
+  width: 600px;
+}
+
+.project p {
+  margin-top: 5px;
+  text-align: justify; 
+}
+
+.technologies span {
+  border: 1px solid white;
+  border-radius: 10px;
+  padding: 5px;
+  margin-right: 10px;
+}
+
+.technologies {
+  margin-top: 15px;
+}
+
+.project .links a {
+  color: white;
+}
+
+.project .links {
+  display: flex;
+  justify-content: space-between;
+  font-size: 24px;
+  margin-top: 15px;
+}
+
+.imageContainer {
+  position: relative;
+  width: 100%;
+}
+
