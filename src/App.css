@@ -102,3 +102,40 @@ body {
 .projects {
   min-height: 100vh;
 }
+
+.header {
+  position: fixed;
+  background-color: black;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  padding: 0 100px 0 100px;
+  z-index: 100;
+  top: -100px;
+}
+
+.header .show {
+  top: 0px;
+}
+
+.header ul {
+  list-style: none;
+  display: flex;
+  font-size: 28px;
+  justify-content: space-between;
+}
+
+.header nav {
+  width: 700px;
+}
+
+.header .logo {
+  font-size: 42px;
+  cursor: pointer;
+}
+
+.header li {
+  cursor: pointer;
+}

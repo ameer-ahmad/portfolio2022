@@ -9,7 +9,7 @@ import { Link } from 'react-scroll'
 
 function About() {
   return (
-    <div className="about">
+    <div className="about" id="about">
         <div className="aboutLeft">
             <h1>Hi, my name is Ameer! 👋</h1>
             <h2>I am a&nbsp;
