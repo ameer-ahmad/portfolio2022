@@ -14,8 +14,8 @@ function Project({project}) {
           </div>
         </div>
         <div className="technologies">
-          {project.technologies.map((technology) => (
-            <span>{technology}</span>
+          {project.technologies.map((technology, pos) => (
+            <span key={pos}>{technology}</span>
           ))}
         </div>
         <div className="links">
