@@ -254,3 +254,7 @@ body {
   display: flex;
   justify-content:space-between;
 }
+
+.linkActive {
+  color: white !important;
+}

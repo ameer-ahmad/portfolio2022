@@ -26,9 +26,9 @@ function Header() {
         </Link>
         <nav>
             <ul>
-                <li><Link to="about" smooth={true} duration={500}>About</Link></li>
-                <li><Link to="projects" smooth={true} duration={500}>Projects</Link></li>
-                <li><Link to="experience" smooth={true} duration={500}>Experience</Link></li>
+                <li><Link activeClass='linkActive' spy={true} to="about" smooth={true} duration={500}>About</Link></li>
+                <li><Link activeClass='linkActive' spy={true} to="projects" smooth={true} duration={500}>Projects</Link></li>
+                <li><Link activeClass='linkActive' spy={true} to="experience" smooth={true} duration={500}>Experience</Link></li>
                 <li><a href={resume} target="_blank" rel="noreferrer">Resume</a></li>
             </ul>
         </nav>
