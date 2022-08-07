@@ -20,7 +20,7 @@ function Experience() {
                 </div>
                 <h5 className="vertical-timeline-element-subtitle">{element.company}</h5>
                 <p id="description">{element.desc}</p>
-                <h5 className="vertical-timeline-element-subtitle">{element.date}</h5>
+                <h5 className="vertical-timeline-element-subtitle timelineDate">{element.date}</h5>
               </VerticalTimelineElement>
             )
           })

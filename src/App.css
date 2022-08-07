@@ -242,6 +242,16 @@ body {
   color: #16222a;
 }
 
+.vertical-timeline-element-date {
+  position: absolute;
+  left: -100%;
+}
+
+.timelineDate {
+  padding-top: 15px;
+  color: #16222a9c;
+}
+
 .timelineText h3 {
   font-weight: bolder;
 }
@@ -293,7 +303,7 @@ body {
   font-size: 42px;
 }
 
-@media only screen and (max-width: 1600px) {
+@media only screen and (max-width: 1630px) {
   .projectsContainer {
     width: 90%;
   }
@@ -303,7 +313,7 @@ body {
   }
 }
 
-@media only screen and (max-width: 1334px) {
+@media only screen and (max-width: 1350px) {
   .projectsContainer {
     justify-content: center;
   }
