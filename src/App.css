@@ -288,3 +288,60 @@ body {
   color: white;
   font-size: 42px;
 }
+
+@media only screen and (max-width: 990px) {
+  .about {
+    flex-direction: column;
+    padding-bottom: 150px;
+    margin-top: 100px;
+  }
+
+  .aboutLeft {
+    text-align: center;
+    width: 90%;
+  }
+
+  .aboutLeft h2 {
+    justify-content: center;
+  }
+
+  .aboutSocials {
+    margin: 0 auto 50px auto;
+  }
+
+  .aboutRight {
+    width: 75%;
+  }
+}
+
+@media only screen and (max-width: 596px) {
+  .aboutLeft h1 {
+    font-size: 28px;
+  }
+
+  .aboutLeft h2 {
+    font-size: 22px;
+  }
+
+  .aboutSocials {
+    width: 75%;
+  }
+}
+
+@media only screen and (max-width: 467px) {
+  .aboutLeft h1 {
+    font-size: 24px;
+  }
+
+  .aboutLeft h2 {
+    font-size: 18px;
+  }
+
+  .aboutSocials {
+    width: 75%;
+  }
+
+  .aboutRight {
+    width: 90%;
+  }
+}

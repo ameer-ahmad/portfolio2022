@@ -16,19 +16,19 @@ function About() {
             <Typewriter 
                 onInit={(typewriter) => {
                     typewriter
-                        .typeString("Software Engineer.")
+                        .typeString(" Software Engineer.")
                         .pauseFor(1000)
                         .deleteAll()
-                        .typeString("Designer.")
+                        .typeString(" Designer.")
                         .pauseFor(1000)
                         .deleteAll()
-                        .typeString("problem solver.")
+                        .typeString(" problem solver.")
                         .pauseFor(1000)
                         .deleteAll()
-                        .typeString("life long learner.")
+                        .typeString(" life long learner.")
                         .pauseFor(1000)
                         .deleteAll()
-                        .typeString("Software Engineer.")
+                        .typeString(" Software Engineer.")
                         .start()
                 }}
             /> </h2>
