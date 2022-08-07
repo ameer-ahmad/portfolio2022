@@ -118,6 +118,10 @@ body {
   transition: all 1s ease-in-out;
 }
 
+.menu-icon {
+  display: none;
+}
+
 .show {
   top: 0px;
   transition: all 0.5s ease-in-out;
@@ -328,6 +332,41 @@ body {
   .aboutRight {
     width: 75%;
   }
+
+  .header nav {
+    width: 100%;
+  }
+
+  .header ul {
+    flex-direction: column;
+    width: 100%;
+    height: 500px;
+    position: absolute;
+    top: 100px;
+    left: -100%;
+    opacity: 1;
+    transition: all 0.5s ease;
+  }
+
+  .header ul.active {
+    background-color: #16222A;
+    left: 0;
+    opacity: 1;
+    z-index: 1;
+    transition: all 0.5s ease;
+  }
+
+  .header ul li {
+    text-align: center;
+    padding: 2rem;
+  }
+
+  .menu-icon {
+    font-size: 1.8rem;
+    cursor: pointer;
+    float: right;
+    display: inline;
+  }
 }
 
 @media only screen and (max-width: 800px) {
@@ -357,6 +396,10 @@ body {
 
   .footerSocials {
     margin-bottom: 15px;
+  }
+
+  .header {
+    padding: 0 25px;
   }
 }
 
