@@ -289,6 +289,22 @@ body {
   font-size: 42px;
 }
 
+@media only screen and (max-width: 1600px) {
+  .projectsContainer {
+    width: 90%;
+  }
+
+  .projects h2, .experience h2 {
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 1334px) {
+  .projectsContainer {
+    justify-content: center;
+  }
+}
+
 @media only screen and (max-width: 990px) {
   .about {
     flex-direction: column;
@@ -343,5 +359,9 @@ body {
 
   .aboutRight {
     width: 90%;
+  }
+
+  .technologies {
+    font-size: 12px;
   }
 }
