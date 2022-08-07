@@ -330,6 +330,12 @@ body {
   }
 }
 
+@media only screen and (max-width: 800px) {
+  .footerContainer {
+    padding: 0 25px;
+  }
+}
+
 @media only screen and (max-width: 596px) {
   .aboutLeft h1 {
     font-size: 28px;
@@ -341,6 +347,16 @@ body {
 
   .aboutSocials {
     width: 75%;
+  }
+
+  .footerContainer {
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .footerSocials {
+    margin-bottom: 15px;
   }
 }
 
