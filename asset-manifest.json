@@ -1,21 +1,21 @@
 {
   "files": {
     "main.css": "/static/css/main.890ec271.css",
-    "main.js": "/static/js/main.6f40099d.js",
+    "main.js": "/static/js/main.64b313ab.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/para.png": "/static/media/para.d112be6a26a3c301fd75.png",
     "static/media/ameer.png": "/static/media/ameer.c5bf8723272ace308bd3.png",
+    "static/media/Ameer Ahmad - Resume.pdf": "/static/media/Ameer Ahmad - Resume.3d8d9494eb2c79d8407e.pdf",
     "static/media/allo.png": "/static/media/allo.a2e4a92acb736fe13ae4.png",
-    "static/media/AmeerAhmadSoftwareEngineerResume.pdf": "/static/media/AmeerAhmadSoftwareEngineerResume.a8f8903db293338d5a91.pdf",
     "static/media/todo.png": "/static/media/todo.677fdeba9079e892f145.png",
     "static/media/chatzy.png": "/static/media/chatzy.4a27bc834c044c2f8083.png",
     "index.html": "/index.html",
     "main.890ec271.css.map": "/static/css/main.890ec271.css.map",
-    "main.6f40099d.js.map": "/static/js/main.6f40099d.js.map",
+    "main.64b313ab.js.map": "/static/js/main.64b313ab.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.890ec271.css",
-    "static/js/main.6f40099d.js"
+    "static/js/main.64b313ab.js"
   ]
 }
