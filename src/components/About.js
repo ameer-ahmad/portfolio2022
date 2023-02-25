@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFile, faAngleDoubleDown } from '@fortawesome/free-solid-svg-icons'
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import Typewriter from 'typewriter-effect'
-import resume from './AmeerAhmadSoftwareEngineerResume.pdf'
+import resume from '../Ameer Ahmad - Resume.pdf'
 import { Link } from 'react-scroll'
 
 function About() {

@@ -1,5 +1,5 @@
 import React from 'react'
-import resume from './AmeerAhmadSoftwareEngineerResume.pdf'
+import resume from '../Ameer Ahmad - Resume.pdf'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFile } from '@fortawesome/free-solid-svg-icons'
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'

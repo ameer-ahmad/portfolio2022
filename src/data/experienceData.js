@@ -1,24 +1,24 @@
 const experiences = [
     {
-        company: "Aceit Digital Inc.",
-        title: "Web Developer",
-        location: "Remote",
-        date: "June 2022 - August 2022",
-        desc: "Held meeting with clients in order to figure out their wants and needs for their brand website. Created and updated websites using HTML, CSS, JavaScript, and Wordpress. Taught grade school children the fundamentals of web development."
-    },
-    {
-        company: "Pocketed Grant Platform",
+        company: "Northland Transport",
         title: "Software Developer",
         location: "Remote",
-        date: "January 2022 - March 2022",
-        desc: "Created company website from scratch using HTML, CSS, and JavaScript from designs. Worked as a solo developer while communicating with other teams, including design and communication teams, to gather necessary information for the website."
+        date: "January 2023 - Present",
+        desc: "Oversaw development of the company website from concept to launch, culminating in successful deployment within 4 months. Constructed frontend website using VueJS and NuxtJS, in order to boost SEO ranking. Crafted user interface designs for all web pages using Figma, ensuring an intuitive navigation layout and maximizing design effectiveness."
+    },
+    {
+        company: "Inspirely Education",
+        title: "Coding Instructor",
+        location: "Remote",
+        date: "October 2022 - December 2022",
+        desc: "Instructed children aged 6-14 in the fundamentals of coding, AI & ML, 3D animation, and mathematics. Crafted custom learning plans to instruct students, with engaging activities like games, quizzes, and interactive videos improving course comprehension and students' attentiveness. Generated daily reports on students' progress based on their performance in class, providing detailed feedback to parents and guardians."
     },
     {
         company: "ClearEvent",
         title: "Front End Developer",
         location: "Remote",
         date: "September 2021 - December 2021",
-        desc: "Developed a new pricing page using HTML, CSS, JavaScript, jQuery, and HandlebarsJS in order to incorporate new pricing plans which increased revenue and customer retention. Created custom landing pages in WordPress with SEO and best practices in mind in order to rank higher on search engines and acquire new customers. Performed QA by finding and logging bugs using TargetProcess before deploying updates."
+        desc: "Constructed a new pricing page using HTML, CSS, JavaScript & jQuery to facilitate the implementation of new pricing options & plans, resulting in improved customer retention by an average of 10%. Analyzed user journeys & conducted end-to-end QA testing to identify bugs and ensure compatibility with > 10 browsers, aiming to reduce defects prior to deployment. Generated custom landing page content optimizing keyword usage and meta-data to increase organic search engine visibility."
     },
     {
         company: "My Media Creative",

@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCode, faBars, faXmark } from '@fortawesome/free-solid-svg-icons'
 import { Link } from 'react-scroll'
-import resume from './AmeerAhmadSoftwareEngineerResume.pdf'
+import resume from '../Ameer Ahmad - Resume.pdf'
 
 function Header() {
 
